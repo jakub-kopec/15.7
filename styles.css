@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	background-color: #CCC;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+	background-color: #CCC;
+}
+
+.button {
+	width: 100px;
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.stopwatch {
+	max-width: 500px;
+	margin: 30px auto 0 auto;
+	padding: 10px 0;
+	font-size: 30px;
+	background-color: #FFF;
+}
+
+.controls {
+	
+}
+
+.results {
+	width: 500px;
+	margin: 30px auto 0 auto;
+	padding: 27px 0;
+	background-color: #FFF;
+	list-style-type: none;
+}
+
+.results li {
+	margin: 5px;
+}
+
+#start, #add {
+	background-color: lawngreen;
+}
+
+#stop, #clear {
+	background-color: red;
+}
+
+#reset {
+	background-color: #ffd252;
+}
